@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Montyhall Game Simulation (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Emile", "Eich", , "eeich@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description:   This package replicates the game "Let's Make A Deal" where there are three doors for a contestant to choose from. One door has a car behind it and the other two have goats behind it. The contestant selects a door, then the host opens the door to reveal a goat, then the contesant decides to stay or switch to the unopened door. This package simulates 100 games to test which game strategy wins the game the most.
+Depends: 
+   dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
